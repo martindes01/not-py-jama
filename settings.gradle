@@ -8,4 +8,4 @@
  */
 
 rootProject.name = 'not-py-jama'
-include('lib')
+include('not-py-jama')
