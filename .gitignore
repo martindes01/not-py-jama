@@ -11,3 +11,6 @@ bin/
 
 # Ignore Gradle build output directory
 build/
+
+# Ignore Visual Studio Code configuration directory
+.vscode/
