@@ -33,5 +33,5 @@ jobs:
 
       - name: Remove problematic files from Gradle cache
         run: |
-          rm -f ~/.gradle/caches/modules-2/modules-2.lock
-          rm -f ~/.gradle/caches/modules-2/gc.properties
+          rm --force ~/.gradle/caches/modules-2/modules-2.lock
+          rm --force ~/.gradle/caches/modules-2/gc.properties
