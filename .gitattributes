@@ -1,5 +1,2 @@
-#
-# https://help.github.com/articles/dealing-with-line-endings/
-#
-# These are explicitly windows files and should use crlf
+# Use CRLF for files intended specifically for Windows
 *.bat           text eol=crlf
