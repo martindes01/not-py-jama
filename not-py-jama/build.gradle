@@ -20,6 +20,8 @@ java {
     withSourcesJar()
 }
 
+def vendor = 'Martin de Spirlet'
+
 group = 'com.github.martindes01.notpyjama'
 version = '0.0.0'
 
@@ -46,6 +48,7 @@ tasks.withType(Jar) {
         attributes(
             'Implementation-Title': project.name,
             'Implementation-Version': project.version,
+            'Implementation-Vendor': vendor,
         )
     }
 }
