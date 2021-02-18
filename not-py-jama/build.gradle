@@ -17,6 +17,9 @@ java {
     }
 }
 
+group = 'com.github.martindes01.notpyjama'
+version = '0.0.0'
+
 repositories {
     // Use JCenter for resolving dependencies.
     jcenter()
