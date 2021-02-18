@@ -16,5 +16,8 @@ jobs:
         with:
           java-version: 11
 
+      - name: Grant execute permission for Gradle Wrapper
+        run: chmod +x gradlew
+
       - name: Run Gradle 'build' task
         run: ./gradlew build
